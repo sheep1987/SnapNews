@@ -119,7 +119,7 @@ def render_news_card(news_item):
     
     with col2:
         if image_url:
-            st.image(image_url, use_column_width=True)
+            st.image(image_url, use_container_width=True)
     
     # 链接按钮
     if st.button("阅读全文", key=f"btn_{hash(title)}"):
